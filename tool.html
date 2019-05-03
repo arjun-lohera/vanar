@@ -1,4 +1,4 @@
-<!doctype html>
+   <!doctype html>
 <html>
 
 <head>
@@ -9,6 +9,7 @@
 
     <!--Fontawesome-->
     <link rel="stylesheet" type="text/css" href="fontawesome/font_css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/blog.css">
 
 </head>
 <body>
@@ -25,8 +26,6 @@
     </div>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-
-
       <li class="nav-item dropdown">
         <a href="#" class="nav-link  dropdown-toggle" data-toggle="dropdown" id="navbarDropdown" role="button">Service</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -36,9 +35,6 @@
           <a href="#" class="dropdown-item">company</a>
         </div>
       </li>
-
-
-
       <li class="nav-item"><a href="control.html" class="nav-link">Contact</a></li>
       <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
     </ul>
@@ -47,42 +43,45 @@
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>    </form>
     </div>
   </nav>
-  <div class="card-group">
-        <div class="card">
-            <img class="card-img-top" src="" alt="">
-            <div class="card-body">
-                <h5 class="card-title">:)</h5>
-                <p class="card-text">Hiiiii</p>
-                <p class="card-text">Muma's Boy<small class="text-muted">;></small></p>
+  <div class="container">
+      <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-item-center">
+            <div class="col-4 pt-1">
+                <a class="text-muted" href="#">
+            Subscribe
+            </a>
             </div>
+            <div class="col-4 text-center ">
+                <a class="blog-header-logo text-dark" href="#">Large</a>
+            </div>
+            <div class="col-4 text-center">
+                    <a class="blog-header-logo text-dark" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" 
+                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                     class="mx-3" role="img" viewBox="0 0 24 24" 
+                    focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/>
+                    <path d="M21 21l-5.2-5.2"/></svg>
+                    </a>
+                    <a href="#" class="btn btn-outline-secondary btn-sm">Sign Up</a>
+                </div>
+            </div>
+      </header>
+      <div class="border-bottom"></div>
+        <div class="nav-scroller py-1 mb-2">
+            <nav class="nav d-flex justify-content-between">
+                <a class="p-2  text-muted" href="">World</a>
+                <a class="p-2  text-muted"href="">U.S</a>
+                <a class="p-2  text-muted" href="">World</a>
+                <a class="p-2  text-muted"href="">U.S</a>
+                <a class="p-2  text-muted"href="">Tech</a>
+                <a class="p-2  text-muted"href="">Tech</a>
+                <a class="p-2  text-muted" href="">Design</a>
+                <a class="p-2  text-muted" href="">Business</a>
+                <a class="p-2  text-muted" href="">Health</a>
+            </nav>
         </div>
-        <div class="card">
-                <img class="card-img-top" src="" alt="">
-                <div class="card-body">
-                    <h5 class="card-title">;)</h5>
-                    <p class="card-text">Sadu</p>
-                    <p class="card-text"></p><small class="text-muted">Tower</small></p>
-                </div>
-            </div>
-            <div class="card">
-                    <img class="card-img-top" src="" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">:}</h5>
-                        <p class="card-text">Handsome</p>
-                
-                    </div>
-                </div>
-
-    </div>
-    <div class="container">
-      <footer class="blockquote-footer text-center bg-dark text-primary">
-       CodeIgniter was created by EllisLab and is now a 
-       project of the British Columbia Institute of Technology 
-      </footer>
-     </div>
-
-
-    <!-- END: Main container -->
+  </div>
+   <!-- END: Main container -->
         <!-- jQuery file -->
 <script src="js/jquery/jquery.min.js"></script>
 <!-- Popper file -->
